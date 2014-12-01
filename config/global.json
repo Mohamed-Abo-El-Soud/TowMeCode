@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Tow Me": {
+            "applicationId": "zHvdP3Em9tLrPXURI2NZ4rjbtyj7wlVtVKn6lqON", 
+            "masterKey": "6MnLlklJ5b9ubd8lXOh8Ie2sEZNcCrWzXYEFgm2i"
+        }, 
+        "_default": {
+            "link": "Tow Me"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}
