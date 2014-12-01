@@ -3,16 +3,17 @@
 Parse.Cloud.define("hello", function (request, response) {
     response.success("Good bye world!");
 });
-Parse.Cloud.beforeSave("LocationPost", function (request, response) {
-    console.log("how's it going?!");
-    request.object.set("location", new Parse.GeoPoint(30.0, -20.0));
-    response.success();
+
+//Parse.Cloud.beforeSave("LocationPost", function (request, response) {
+//    console.log("how's it going?!");
+//    request.object.set("location", new Parse.GeoPoint(30.0, -20.0));
+//    response.success();
     //  if (request.object.set("objectId") == "Dqh2lqXn6N") {
     //    response.error("this user has been denied access");
     //  } else {
     //    response.success();
     //  }
-});
+//});
 
 Parse.Cloud.define("requestTowTruckers", function (request, response) {
     var TowTruckers = Parse.Object.extend("TowTruckers");
